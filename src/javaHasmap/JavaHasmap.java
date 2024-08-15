@@ -28,7 +28,7 @@ public class JavaHasmap {
         capitalCities.put("Norway", "Oslo");
         capitalCities.put("USA", "Washington DC");
         System.out.println(capitalCities);
-        
+
         for (String key : capitalCities.keySet()) {
             System.out.println("My dist Name is:" + capitalCities.get(key));
 
